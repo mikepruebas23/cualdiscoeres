@@ -152,8 +152,6 @@ function selectButton(e){
         default:
             break;
     }
-    // response = "A";
-    // console.log(response);
 }
 
 function showResponse(){
