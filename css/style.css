@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Fredoka One', cursive;
+}
+
+.container-full{
+    background-color: #edf2f9;
+    padding: 5px;
+}
+.container-quiz,
+.container{
+    width: 90%;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: #d6dbe3;
+    /* height: 70px; */
+    border-radius: 4px;
+    margin-top: 5px;
+    box-shadow: 0 3px 10px 0 rgb(65 69 88 / 10%), 0 3px 6px 0 rgb(0 0 0 / 7%);
+}
+.container-quiz > div{
+    text-align: center;
+    font-size: 24px;
+    background-color: #fff;
+    /* color: white; */
+    margin: 4px;
+    border-radius: 2px;
+    padding: 7px;
+}
+
+.btn{
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 3px;
+    /* background-color: green; */
+    color: white;
+    text-transform: uppercase;
+    
+}
+.btn-green{
+    background-color:#2cc185;
+}
+.btn-red{
+    background-color: #ff4e4e;
+}
+.btn-blue{
+    background-color: #4b4bf7;
+}
+.btn:active{
+    transform: scale(0.9);
+}
+.dnone{
+    display: none;
+}
+.dblock{
+    display: block;
+}
+
+.result-view{
+    text-align: center;
+    margin: 5px;
+    font-size: 1.5em;
+}
+
+img{
+    width: 90%;
+    border: 5px solid white;
+    border-radius: 3px;
+}
+a > img{
+    width: 30%;
+    border: 5px solid white;
+    border-radius: 3px;
+}
+.blockElement{
+    background-color: #d6dbe3 !important;
+}
+.container{
+    text-align: center;
+}
+.showResultsButton{
+    padding: 15px;
+    color: white;
+    border-radius: 3px;
+    background: #4b4bf7;
+    border: none;
+}
+
+.txt-label{
+    background: blue;
+    color: white;
+    padding: 5px;
+    width: 90%;
+    margin: 0 auto;
+}

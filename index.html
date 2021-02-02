@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISCO</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   <div class="container-full">
+       <div id="quiz" class="container-quiz dblock">
+           <div id="el1">
+               <p>¿Cúal canción te gusta más?</p>
+               <div>
+                   <button id="1" onclick="selectButton(event)" class="btn btn-green ">Dile a la luna</button>
+                   <button id="2" onclick="selectButton(event)" class="btn btn-blue ">Me gustas</button>
+                   <button id="3" onclick="selectButton(event)" class="btn btn-red ">Mi ultima cancion de amor</button>
+               </div>
+           </div>
+           <div id="el2">
+               <p>¿Cuantos años tienes?</p>
+               <div >
+                   <button id="4" onclick="selectButton(event)" class="btn btn-green blockElement" disabled>Tengo 15</button>
+                   <button id="5" onclick="selectButton(event)" class="btn btn-blue blockElement"disabled>Más de 18</button>
+                   <button id="6" onclick="selectButton(event)" class="btn btn-red blockElement"disabled>Más de 25</button>
+               </div>
+           </div>
+           <div id="el3">
+               <p>¿Cúal es tu personaje favorito?</p>
+               <div>
+                   <button id="7" onclick="selectButton(event)" class="btn btn-green blockElement"disabled>Xantashi</button>
+                   <button id="8" onclick="selectButton(event)" class="btn btn-blue blockElement"disabled>Gustavo M.</button>
+                   <button id="9" onclick="selectButton(event)" class="btn btn-red blockElement"disabled>Romeo</button>
+               </div>
+           </div>
+           <div id="el4"> 
+               <p>¿Que significa RM?</p>
+               <div>
+                   <button id="10" onclick="selectButton(event)" class="btn btn-green blockElement"disabled>Rap en Mayusculas</button>
+                   <button id="11" onclick="selectButton(event)" class="btn btn-blue blockElement"disabled>Rima Mitologica</button>
+                   <button id="12" onclick="selectButton(event)" class="btn btn-red blockElement"disabled>Rap Masters</button>
+               </div>
+           </div>
+           <div id="el5">
+               <p>Selecciona 1 color</p>
+               <div>
+                   <button id="13" onclick="selectButton(event)" class="btn btn-green blockElement"disabled>Verde</button>
+                   <button id="14" onclick="selectButton(event)" class="btn btn-blue blockElement"disabled>Azul</button>
+                   <button id="15" onclick="selectButton(event)" class="btn btn-red blockElement"disabled>Rojo</button>
+               </div>
+           </div>
+       </div>
+
+       <div id="result" class="dnone result-view">
+            <p>TU DISCO SERIA: </p>
+            <p id="ndisco" class="txt-label"></p>
+            <img id="imgdisco" src="" alt="img disc">
+            <br>
+            <p class="txt-label">SIGUEME EN FB O EN INSTAGRAM</p>
+            <a href="https://www.instagram.com/elmikerm/" target="_blank">
+                <img src="https://play-lh.googleusercontent.com/h9jWMwqb-h9hjP4THqrJ50eIwPekjv7QPmTpA85gFQ10PjV02CoGAcYLLptqd19Sa1iJ"  alt="instagram">
+            </a>
+            <a href="https://www.facebook.com/MIK3RM/" target="_blank">
+                <img src="https://about.fb.com/ltam/wp-content/uploads/sites/14/2018/12/Facebook-2.jpeg?fit=1920%2C1080" alt="facebook">
+            </a>
+       </div>
+    <div id="showR" class="container dnone">
+        <button class="showResultsButton" onclick="showResponse()">Mostrar Resultados</button>
+    </div>
+   </div>
+</body>
+<script src="js/index.js"></script>
+</html>
